@@ -1,8 +1,16 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<assert.h>
+#include " stack.h"
 
-int main()
-{
-    printf("Hello world!\n");
-    return 0;
+q = queue_ad(q,10, &res);
+q = queue_ad(q,20, &res);
+assert(queue_length(q) == 3);
+assert(res.status == queue_fl);
+
+
+
+void test_Qdelete(){
+Queue q1 = queue_new(3);
+Queue +q =  &q1;
 }
